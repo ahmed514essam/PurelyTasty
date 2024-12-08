@@ -1,7 +1,8 @@
 import style from "./Home.module.css"
+import Data from "../../european_meals_with_all_details.json"
 const Home = () => {
 
-
+console.log(Data)
 
 
     
@@ -25,7 +26,17 @@ An Unforgettable Culinary Journey
 </section>
 
 
+<section className={style.secondSectionh}>
 
+<div className={style.content}>
+
+
+
+
+</div>
+
+
+</section>
 
 
 
