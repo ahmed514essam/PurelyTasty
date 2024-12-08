@@ -3,7 +3,7 @@ import "./Header.css"
 import iconImage from "../../../public/favIcon.png"
 import { Link, useNavigate } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { faBars , faUser } from "@fortawesome/free-solid-svg-icons";
 const Header = () => {
 
 
@@ -35,7 +35,7 @@ const Header = () => {
 
   <span  onClick={goHome} className={style.IconTittle}>
         <img src={iconImage}/>
-    <h1 className="fontTiltle">PurelyTasty </h1>
+    <h1 className="fontTiltle">Savore </h1>
     </span>
 
     <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -63,7 +63,12 @@ const Header = () => {
 </div>
 
 {/* <div className={style.listdisplayBuuton}> */}
-    <button className={style.btnGetAppp}>Get The APP</button>
+    <button className={style.btnGetAppp}>
+
+    Profile
+    <FontAwesomeIcon icon={faUser} />
+
+    </button>
 
 
      
@@ -76,17 +81,17 @@ const Header = () => {
 
     <span  onClick={goHome} className={style.IconTittle}>
         <img src={iconImage}/>
-    <h1 className="fontTiltle">PurelyTasty </h1>
+    <h1 className="fontTiltle">Savore </h1>
     </span>
 
 <div className={style.ilnksContent
 }>
-<Link className={style.linkNav} to={""}>Library</Link>
+<Link className={style.linkNav} to={""}>Account</Link>
 
 
 <Link className={style.linkNav} to={"/contactus"}>Contact Us</Link>
 
-<Link className={style.linkNav} to={"/account"}>Account</Link>
+<Link className={style.linkNav} to={"/account"}></Link>
 <div className="dropdown d-block">
   <button className="btn  dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
   Restaurant
@@ -107,7 +112,9 @@ const Header = () => {
 
 
 <div className={style.rightSide}>
-    <button className={style.btnGetApp}>Get The APP</button>
+    <button className={style.btnGetApp}>
+    Reservation
+    </button>
 </div>
 
     </nav>

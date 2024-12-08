@@ -16,7 +16,7 @@ const goHome = () => {
 
 <span className={style.IconTittle}>
         <img src={iconImage} alt=""/>
-    <h1 onClick={goHome} className={style.fontTiltle}>PurelyTasty </h1>
+    <h1 onClick={goHome} className={style.fontTiltle}>Savore </h1>
     </span>
 
 
@@ -57,7 +57,7 @@ const goHome = () => {
 <hr/>
 
 <div className={style.thirdHalfFooter}>
-<p>© 2024 PurelyTasty
+<p>© 2024 Savore
 </p>
 
 </div>
