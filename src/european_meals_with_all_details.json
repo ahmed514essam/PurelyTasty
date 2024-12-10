@@ -2,10 +2,11 @@
     {
         "meal": "Fish and Chips",
         "city": "England",
+        "image" : "../public/foods/1.jpeg" ,
+
         "price": 10.0,
         "price_after_offer": 7.0,
         "description": "Fish and Chips is a traditional dish from England, known for its rich flavors and cultural significance.",
-        "image": "https://via.placeholder.com/150?text=Fish+and+Chips",
         "components": [
             "Fish fillet",
             "Potatoes",
@@ -20,7 +21,8 @@
         "price": 12.0,
         "price_after_offer": 8.399999999999999,
         "description": "Full English Breakfast is a traditional dish from England, known for its rich flavors and cultural significance.",
-        "image": "https://via.placeholder.com/150?text=Full+English+Breakfast",
+        "image" : "../public/foods/2.jpeg" ,
+
         "components": [
             "Eggs",
             "Sausages",
@@ -35,7 +37,7 @@
         "price": 15.0,
         "price_after_offer": 10.5,
         "description": "Shepherd's Pie is a traditional dish from England, known for its rich flavors and cultural significance.",
-        "image": "https://via.placeholder.com/150?text=Shepherd's+Pie",
+        "image" : "/public/foods/3.jpeg" ,
         "components": [
             "Minced lamb",
             "Potatoes",
@@ -50,7 +52,7 @@
         "price": 25.0,
         "price_after_offer": 17.5,
         "description": "Beef Wellington is a traditional dish from England, known for its rich flavors and cultural significance.",
-        "image": "https://via.placeholder.com/150?text=Beef+Wellington",
+        "image" : "/public/foods/4.jpeg" ,
         "components": [
             "Beef tenderloin",
             "Mushrooms",
@@ -65,7 +67,7 @@
         "price": 20.0,
         "price_after_offer": 14.0,
         "description": "Roast Beef with Yorkshire Pudding is a traditional dish from England, known for its rich flavors and cultural significance.",
-        "image": "https://via.placeholder.com/150?text=Roast+Beef+with+Yorkshire+Pudding",
+        "image" : "/public/foods/5.jpeg" ,
         "components": [
             "Beef",
             "Flour",
@@ -80,7 +82,7 @@
         "price": 8.0,
         "price_after_offer": 5.6,
         "description": "Cornish Pasty is a traditional dish from England, known for its rich flavors and cultural significance.",
-        "image": "https://via.placeholder.com/150?text=Cornish+Pasty",
+        "image" : "/public/foods/6.jpeg" ,
         "components": [
             "Beef",
             "Potatoes",
@@ -95,7 +97,7 @@
         "price": 5.0,
         "price_after_offer": 3.5,
         "description": "Sausage Rolls is a traditional dish from England, known for its rich flavors and cultural significance.",
-        "image": "https://via.placeholder.com/150?text=Sausage+Rolls",
+        "image" : "/public/foods/7.jpeg" ,
         "components": [
             "Sausage meat",
             "Puff pastry",
@@ -106,10 +108,11 @@
     {
         "meal": "Sticky Toffee Pudding",
         "city": "England",
+        "image" : "/public/foods/8.jpeg" ,
+
         "price": 7.0,
         "price_after_offer": 4.8999999999999995,
         "description": "Sticky Toffee Pudding is a traditional dish from England, known for its rich flavors and cultural significance.",
-        "image": "https://via.placeholder.com/150?text=Sticky+Toffee+Pudding",
         "components": [
             "Dates",
             "Flour",
@@ -124,7 +127,7 @@
         "price": 10.0,
         "price_after_offer": 7.0,
         "description": "Victoria Sponge Cake is a traditional dish from England, known for its rich flavors and cultural significance.",
-        "image": "https://via.placeholder.com/150?text=Victoria+Sponge+Cake",
+        "image" : "/public/foods/9.jpeg" ,
         "components": [
             "Flour",
             "Butter",
@@ -139,7 +142,7 @@
         "price": 8.0,
         "price_after_offer": 5.6,
         "description": "Eton Mess is a traditional dish from England, known for its rich flavors and cultural significance.",
-        "image": "https://via.placeholder.com/150?text=Eton+Mess",
+        "image" : "/public/foods/10.jpeg" ,
         "components": [
             "Strawberries",
             "Meringue",
@@ -153,7 +156,7 @@
         "price": 2.5,
         "price_after_offer": 1.75,
         "description": "Croissant is a traditional dish from France, known for its rich flavors and cultural significance.",
-        "image": "https://via.placeholder.com/150?text=Croissant",
+        "image" : "/public/foods/11.jpeg" ,
         "components": [
             "Ingredients not specified"
         ]
@@ -164,7 +167,7 @@
         "price": 3.0,
         "price_after_offer": 2.0999999999999996,
         "description": "Baguette is a traditional dish from France, known for its rich flavors and cultural significance.",
-        "image": "https://via.placeholder.com/150?text=Baguette",
+        "image" : "/public/foods/12.jpeg" ,
         "components": [
             "Ingredients not specified"
         ]
@@ -175,7 +178,7 @@
         "price": 18.0,
         "price_after_offer": 12.6,
         "description": "Coq au Vin is a traditional dish from France, known for its rich flavors and cultural significance.",
-        "image": "https://via.placeholder.com/150?text=Coq+au+Vin",
+        "image" : "/public/foods/13.jpeg" ,
         "components": [
             "Ingredients not specified"
         ]
@@ -186,7 +189,7 @@
         "price": 12.0,
         "price_after_offer": 8.399999999999999,
         "description": "Ratatouille is a traditional dish from France, known for its rich flavors and cultural significance.",
-        "image": "https://via.placeholder.com/150?text=Ratatouille",
+        "image" : "/public/foods/14.jpeg" ,
         "components": [
             "Ingredients not specified"
         ]
@@ -197,7 +200,7 @@
         "price": 22.0,
         "price_after_offer": 15.399999999999999,
         "description": "Bouillabaisse is a traditional dish from France, known for its rich flavors and cultural significance.",
-        "image": "https://via.placeholder.com/150?text=Bouillabaisse",
+        "image" : "/public/foods/15.jpeg" ,
         "components": [
             "Ingredients not specified"
         ]
@@ -208,7 +211,7 @@
         "price": 10.0,
         "price_after_offer": 7.0,
         "description": "Quiche Lorraine is a traditional dish from France, known for its rich flavors and cultural significance.",
-        "image": "https://via.placeholder.com/150?text=Quiche+Lorraine",
+        "image" : "/public/foods/16.jpeg" ,
         "components": [
             "Ingredients not specified"
         ]
@@ -219,7 +222,7 @@
         "price": 20.0,
         "price_after_offer": 14.0,
         "description": "Boeuf Bourguignon is a traditional dish from France, known for its rich flavors and cultural significance.",
-        "image": "https://via.placeholder.com/150?text=Boeuf+Bourguignon",
+        "image" : "/public/foods/17.jpeg" ,
         "components": [
             "Ingredients not specified"
         ]
@@ -230,7 +233,7 @@
         "price": 9.0,
         "price_after_offer": 6.3,
         "description": "Tarte Tatin is a traditional dish from France, known for its rich flavors and cultural significance.",
-        "image": "https://via.placeholder.com/150?text=Tarte+Tatin",
+        "image" : "/public/foods/18.jpeg" ,
         "components": [
             "Ingredients not specified"
         ]
@@ -241,7 +244,7 @@
         "price": 7.0,
         "price_after_offer": 4.8999999999999995,
         "description": "Cr\u00e8me Br\u00fbl\u00e9e is a traditional dish from France, known for its rich flavors and cultural significance.",
-        "image": "https://via.placeholder.com/150?text=Cr\u00e8me+Br\u00fbl\u00e9e",
+        "image" : "/public/foods/19.jpeg" ,
         "components": [
             "Ingredients not specified"
         ]
@@ -252,7 +255,7 @@
         "price": 15.0,
         "price_after_offer": 10.5,
         "description": "Escargots is a traditional dish from France, known for its rich flavors and cultural significance.",
-        "image": "https://via.placeholder.com/150?text=Escargots",
+        "image" : "/public/foods/20.jpeg" ,
         "components": [
             "Ingredients not specified"
         ]
@@ -263,7 +266,7 @@
         "price": 18.0,
         "price_after_offer": 12.6,
         "description": "Paella is a traditional dish from Spain, known for its rich flavors and cultural significance.",
-        "image": "https://via.placeholder.com/150?text=Paella",
+        "image" : "/public/foods/21.jpeg" ,
         "components": [
             "Ingredients not specified"
         ]
@@ -274,7 +277,7 @@
         "price": 12.0,
         "price_after_offer": 8.399999999999999,
         "description": "Tortilla Espa\u00f1ola is a traditional dish from Spain, known for its rich flavors and cultural significance.",
-        "image": "https://via.placeholder.com/150?text=Tortilla+Espa\u00f1ola",
+        "image" : "/public/foods/22.jpeg" ,
         "components": [
             "Ingredients not specified"
         ]
@@ -285,7 +288,7 @@
         "price": 8.0,
         "price_after_offer": 5.6,
         "description": "Gazpacho is a traditional dish from Spain, known for its rich flavors and cultural significance.",
-        "image": "https://via.placeholder.com/150?text=Gazpacho",
+        "image" : "/public/foods/23.jpeg" ,
         "components": [
             "Ingredients not specified"
         ]
@@ -296,7 +299,7 @@
         "price": 25.0,
         "price_after_offer": 17.5,
         "description": "Jam\u00f3n Ib\u00e9rico is a traditional dish from Spain, known for its rich flavors and cultural significance.",
-        "image": "https://via.placeholder.com/150?text=Jam\u00f3n+Ib\u00e9rico",
+        "image" : "/public/foods/24.jpeg" ,
         "components": [
             "Ingredients not specified"
         ]
@@ -307,7 +310,7 @@
         "price": 6.0,
         "price_after_offer": 4.199999999999999,
         "description": "Churros with Chocolate is a traditional dish from Spain, known for its rich flavors and cultural significance.",
-        "image": "https://via.placeholder.com/150?text=Churros+with+Chocolate",
+        "image" : "/public/foods/25.jpeg" ,
         "components": [
             "Ingredients not specified"
         ]
@@ -318,7 +321,7 @@
         "price": 5.0,
         "price_after_offer": 3.5,
         "description": "Patatas Bravas is a traditional dish from Spain, known for its rich flavors and cultural significance.",
-        "image": "https://via.placeholder.com/150?text=Patatas+Bravas",
+        "image" : "/public/foods/26.jpeg" ,
         "components": [
             "Ingredients not specified"
         ]
@@ -329,7 +332,7 @@
         "price": 15.0,
         "price_after_offer": 10.5,
         "description": "Pulpo a la Gallega is a traditional dish from Spain, known for its rich flavors and cultural significance.",
-        "image": "https://via.placeholder.com/150?text=Pulpo+a+la+Gallega",
+        "image" : "/public/foods/27.jpeg" ,
         "components": [
             "Ingredients not specified"
         ]
@@ -340,7 +343,7 @@
         "price": 10.0,
         "price_after_offer": 7.0,
         "description": "Pisto is a traditional dish from Spain, known for its rich flavors and cultural significance.",
-        "image": "https://via.placeholder.com/150?text=Pisto",
+        "image" : "/public/foods/28.jpeg" ,
         "components": [
             "Ingredients not specified"
         ]
@@ -351,7 +354,7 @@
         "price": 7.0,
         "price_after_offer": 4.8999999999999995,
         "description": "Croquetas is a traditional dish from Spain, known for its rich flavors and cultural significance.",
-        "image": "https://via.placeholder.com/150?text=Croquetas",
+        "image" : "/public/foods/29.jpeg" ,
         "components": [
             "Ingredients not specified"
         ]
@@ -362,7 +365,7 @@
         "price": 10.0,
         "price_after_offer": 7.0,
         "description": "Sangria is a traditional dish from Spain, known for its rich flavors and cultural significance.",
-        "image": "https://via.placeholder.com/150?text=Sangria",
+        "image" : "/public/foods/30.jpeg" ,
         "components": [
             "Ingredients not specified"
         ]
@@ -373,7 +376,7 @@
         "price": 10.0,
         "price_after_offer": 7.0,
         "description": "Pizza Margherita is a traditional dish from Italy, known for its rich flavors and cultural significance.",
-        "image": "https://via.placeholder.com/150?text=Pizza+Margherita",
+        "image" : "/public/foods/31.jpeg" ,
         "components": [
             "Ingredients not specified"
         ]
@@ -384,7 +387,7 @@
         "price": 12.0,
         "price_after_offer": 8.399999999999999,
         "description": "Spaghetti Carbonara is a traditional dish from Italy, known for its rich flavors and cultural significance.",
-        "image": "https://via.placeholder.com/150?text=Spaghetti+Carbonara",
+        "image" : "/public/foods/spaghty.jpeg" ,
         "components": [
             "Ingredients not specified"
         ]
@@ -395,7 +398,7 @@
         "price": 15.0,
         "price_after_offer": 10.5,
         "description": "Risotto alla Milanese is a traditional dish from Italy, known for its rich flavors and cultural significance.",
-        "image": "https://via.placeholder.com/150?text=Risotto+alla+Milanese",
+        "image" : "/public/foods/33.jpeg" ,
         "components": [
             "Ingredients not specified"
         ]
@@ -406,7 +409,7 @@
         "price": 14.0,
         "price_after_offer": 9.799999999999999,
         "description": "Lasagna Bolognese is a traditional dish from Italy, known for its rich flavors and cultural significance.",
-        "image": "https://via.placeholder.com/150?text=Lasagna+Bolognese",
+        "image" : "/public/foods/34.jpeg" ,
         "components": [
             "Ingredients not specified"
         ]
@@ -417,7 +420,7 @@
         "price": 7.0,
         "price_after_offer": 4.8999999999999995,
         "description": "Tiramisu is a traditional dish from Italy, known for its rich flavors and cultural significance.",
-        "image": "https://via.placeholder.com/150?text=Tiramisu",
+        "image" : "/public/foods/35.jpeg" ,
         "components": [
             "Ingredients not specified"
         ]
@@ -428,7 +431,7 @@
         "price": 13.0,
         "price_after_offer": 9.1,
         "description": "Ravioli is a traditional dish from Italy, known for its rich flavors and cultural significance.",
-        "image": "https://via.placeholder.com/150?text=Ravioli",
+        "image" : "/public/foods/36.jpeg" ,
         "components": [
             "Ingredients not specified"
         ]
@@ -439,7 +442,7 @@
         "price": 12.0,
         "price_after_offer": 8.399999999999999,
         "description": "Pesto alla Genovese is a traditional dish from Italy, known for its rich flavors and cultural significance.",
-        "image": "https://via.placeholder.com/150?text=Pesto+alla+Genovese",
+        "image" : "/public/foods/37.jpeg" ,
         "components": [
             "Ingredients not specified"
         ]
@@ -450,7 +453,7 @@
         "price": 20.0,
         "price_after_offer": 14.0,
         "description": "Ossobuco is a traditional dish from Italy, known for its rich flavors and cultural significance.",
-        "image": "https://via.placeholder.com/150?text=Ossobuco",
+        "image" : "/public/foods/51.jpeg" ,
         "components": [
             "Ingredients not specified"
         ]
@@ -461,7 +464,7 @@
         "price": 5.0,
         "price_after_offer": 3.5,
         "description": "Gelato is a traditional dish from Italy, known for its rich flavors and cultural significance.",
-        "image": "https://via.placeholder.com/150?text=Gelato",
+        "image" : "/public/foods/39.jpeg" ,
         "components": [
             "Ingredients not specified"
         ]
@@ -472,7 +475,7 @@
         "price": 6.0,
         "price_after_offer": 4.199999999999999,
         "description": "Cannoli is a traditional dish from Italy, known for its rich flavors and cultural significance.",
-        "image": "https://via.placeholder.com/150?text=Cannoli",
+        "image" : "/public/foods/40.jpeg" ,
         "components": [
             "Ingredients not specified"
         ]
@@ -483,7 +486,7 @@
         "price": 7.0,
         "price_after_offer": 4.8999999999999995,
         "description": "Bratwurst is a traditional dish from Germany, known for its rich flavors and cultural significance.",
-        "image": "https://via.placeholder.com/150?text=Bratwurst",
+        "image" : "/public/foods/41.jpeg" ,
         "components": [
             "Ingredients not specified"
         ]
@@ -494,7 +497,7 @@
         "price": 5.0,
         "price_after_offer": 3.5,
         "description": "Sauerkraut is a traditional dish from Germany, known for its rich flavors and cultural significance.",
-        "image": "https://via.placeholder.com/150?text=Sauerkraut",
+        "image" : "/public/foods/42.jpeg" ,
         "components": [
             "Ingredients not specified"
         ]
@@ -505,7 +508,7 @@
         "price": 4.0,
         "price_after_offer": 2.8,
         "description": "Pretzels is a traditional dish from Germany, known for its rich flavors and cultural significance.",
-        "image": "https://via.placeholder.com/150?text=Pretzels",
+        "image" : "/public/foods/43.jpeg" ,
         "components": [
             "Ingredients not specified"
         ]
@@ -516,7 +519,7 @@
         "price": 15.0,
         "price_after_offer": 10.5,
         "description": "Schnitzel is a traditional dish from Germany, known for its rich flavors and cultural significance.",
-        "image": "https://via.placeholder.com/150?text=Schnitzel",
+        "image" : "/public/foods/44.jpeg" ,
         "components": [
             "Ingredients not specified"
         ]
@@ -527,7 +530,7 @@
         "price": 8.0,
         "price_after_offer": 5.6,
         "description": "Currywurst is a traditional dish from Germany, known for its rich flavors and cultural significance.",
-        "image": "https://via.placeholder.com/150?text=Currywurst",
+        "image" : "/public/foods/45.jpeg" ,
         "components": [
             "Ingredients not specified"
         ]
@@ -538,7 +541,7 @@
         "price": 18.0,
         "price_after_offer": 12.6,
         "description": "Sauerbraten is a traditional dish from Germany, known for its rich flavors and cultural significance.",
-        "image": "https://via.placeholder.com/150?text=Sauerbraten",
+        "image" : "/public/foods/46.jpeg" ,
         "components": [
             "Ingredients not specified"
         ]
@@ -549,7 +552,7 @@
         "price": 10.0,
         "price_after_offer": 7.0,
         "description": "Sp\u00e4tzle is a traditional dish from Germany, known for its rich flavors and cultural significance.",
-        "image": "https://via.placeholder.com/150?text=Sp\u00e4tzle",
+        "image" : "/public/foods/47.jpeg" ,
         "components": [
             "Ingredients not specified"
         ]
@@ -560,7 +563,7 @@
         "price": 6.0,
         "price_after_offer": 4.199999999999999,
         "description": "Black Forest Cake is a traditional dish from Germany, known for its rich flavors and cultural significance.",
-        "image": "https://via.placeholder.com/150?text=Black+Forest+Cake",
+        "image" : "/public/foods/48.jpeg" ,
         "components": [
             "Ingredients not specified"
         ]
@@ -571,7 +574,7 @@
         "price": 7.0,
         "price_after_offer": 4.8999999999999995,
         "description": "Apfelstrudel is a traditional dish from Germany, known for its rich flavors and cultural significance.",
-        "image": "https://via.placeholder.com/150?text=Apfelstrudel",
+        "image" : "../public/foods/52.jpeg" ,
         "components": [
             "Ingredients not specified"
         ]
@@ -582,7 +585,7 @@
         "price": 4.0,
         "price_after_offer": 2.8,
         "description": "Lebkuchen is a traditional dish from Germany, known for its rich flavors and cultural significance.",
-        "image": "https://via.placeholder.com/150?text=Lebkuchen",
+        "image" : "/public/foods/50.jpeg" ,
         "components": [
             "Ingredients not specified"
         ]

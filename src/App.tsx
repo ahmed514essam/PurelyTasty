@@ -3,6 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import Root from "./Root";
 import Home from "./Pages/Home/Home";
+import Menu from "./Pages/Menu/Menu";
 
 
 
@@ -14,7 +15,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Root/>}>
        <Route path="/" element={<Home/>}/>
-        
+        <Route path="/menu-foods" element={<Menu/>} />
         
 
         </Route>

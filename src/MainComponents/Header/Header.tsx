@@ -54,7 +54,7 @@ const Header = () => {
   Restaurant
   </button>
   <ul className="dropdown-menu ">
-    <li><a className="dropdown-item " href="#">Services</a></li>
+    <li><a className="dropdown-item " href="#">Menu Foods</a></li>
     <li><Link className="dropdown-item" to={"/aboutus"}>About Us</Link></li>
   </ul>
 </div>
@@ -65,8 +65,7 @@ const Header = () => {
 {/* <div className={style.listdisplayBuuton}> */}
     <button className={style.btnGetAppp}>
 
-    Profile
-    <FontAwesomeIcon icon={faUser} />
+    Reservation
 
     </button>
 
@@ -97,7 +96,7 @@ const Header = () => {
   Restaurant
   </button>
   <ul className="dropdown-menu ">
-    <li><Link className="dropdown-item " to="#">Services</Link></li>
+    <li><Link className="dropdown-item " to="#">Menu Foods</Link></li>
     <li><Link className="dropdown-item" to={"/aboutus"}>About Us</Link></li>
   </ul>
 </div>
