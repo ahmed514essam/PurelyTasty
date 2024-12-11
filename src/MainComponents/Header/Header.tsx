@@ -3,7 +3,7 @@ import "./Header.css"
 import iconImage from "../../../public/favIcon.png"
 import { Link, useNavigate } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars , faUser } from "@fortawesome/free-solid-svg-icons";
+import { faBars  } from "@fortawesome/free-solid-svg-icons";
 const Header = () => {
 
 
@@ -54,7 +54,7 @@ const Header = () => {
   Restaurant
   </button>
   <ul className="dropdown-menu ">
-    <li><a className="dropdown-item " href="#">Menu Foods</a></li>
+    <li><Link className="dropdown-item " to="/menu-foods">Menu Foods</Link></li>
     <li><Link className="dropdown-item" to={"/aboutus"}>About Us</Link></li>
   </ul>
 </div>
@@ -96,8 +96,8 @@ const Header = () => {
   Restaurant
   </button>
   <ul className="dropdown-menu ">
-    <li><Link className="dropdown-item " to="#">Menu Foods</Link></li>
-    <li><Link className="dropdown-item" to={"/aboutus"}>About Us</Link></li>
+    <li><Link className="dropdown-item " to="/menu-foods">Menu Foods</Link></li>
+    <li><Link className="dropdown-item" to={"/your-order"}>About Us</Link></li>
   </ul>
 </div>
 
