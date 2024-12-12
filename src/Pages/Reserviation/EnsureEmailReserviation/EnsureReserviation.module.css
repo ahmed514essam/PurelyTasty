@@ -1,0 +1,175 @@
+.sectionEnsure {
+    margin-top: 80px;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../../../../public/images/reservationBg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contentEnsure {
+    width: 50%;
+    height: 180px;
+    margin: auto;
+}
+.contentEnsure h2 {
+    font-weight: 600;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2.5em;
+}
+.contentEnsure .spanEmail {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.spanEmail input  {
+    width: 77%;
+    outline: none;
+    border: 0;
+    border-radius: 12px;
+    padding-left: 20px;
+    font-size: 1.3em;
+    font-weight: 500;
+}
+.spanEmail button {
+    width: 20%;
+    padding: 10px 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(198, 86, 45);
+font-size: 1.4em;
+border-radius: 12px;
+border: 0;
+
+}
+@media (max-width:1193px) {
+    .contentEnsure {
+        width: 70%;
+    }
+}
+@media (max-width:700px) {
+    .contentEnsure {
+        width: 85%;
+    }
+}
+@media (max-width:614px) {
+    .contentEnsure {
+        width: 80%;
+    }
+    .contentEnsure .spanEmail {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 10px;
+        gap: 20px;
+    }
+    .spanEmail input  {
+        width: 100%;
+        outline: none;
+        border: 0;
+        border-radius: 12px;
+        padding-left: 20px;
+        font-size: 1.3em;
+        font-weight: 500;
+        height: 50px;
+    }
+    .spanEmail button {
+        width: 50%;
+        padding: 10px 15px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 600;
+        color: white;
+        background-color: rgb(198, 86, 45);
+    font-size: 1.4em;
+    border-radius: 12px;
+    border: 0;
+    
+    }
+}
+
+.Alert {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.2); /* Black with 50% opacity */
+    
+    padding: 15px 20px;
+    z-index: 1000; 
+    display: flex;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+.alertContent {
+    width: 380px;
+    height: 200px;
+    background-color: rgb(246, 246, 246);
+    border-radius: 20px;
+    display: flex;
+flex-direction: column;    
+    justify-content: space-between;
+
+    
+}
+.alertContent span {
+    width: 100%;
+    right: 0;
+    left: 0;
+    color: black;
+    font-weight: 700;
+    direction: rtl;
+font-size: 1.2em;
+padding-right: 20px;
+padding-top: 0px;    
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+padding-left: 20px;
+align-items: center;
+}
+.alertContent span p {
+    padding-top: 15px;
+}
+.alertContent h3 {
+font-weight: 600;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+padding-left: 10px;
+padding-top: 10px;
+padding-bottom: 10px;
+color: rgb(76, 76, 76);
+}
+
+.btnAler {
+    width: 100%;
+    padding-bottom: 10px;
+}
+.alertContent button {
+    width: 40%;
+    border-radius: 15px;
+    font-weight: 700;
+    font-size: 1.4;
+    padding: 4px 8px;
+    background-color: rgb(9, 9, 156);
+    color: white;
+    border: 0;
+    
+    }
+    .alertContent button:hover {
+        opacity: 90%;
+    }
+    .alertContent hr {
+        width: 100%;
+    }

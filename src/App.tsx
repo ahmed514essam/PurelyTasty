@@ -7,6 +7,9 @@ import Menu from "./Pages/Menu/Menu";
 import MealProfile from "./Pages/Menu/MealProfile/MealProfile";
 import Order from "./Pages/Orders/Orders";
 import SendOrder from "./Pages/Orders/SendDetailsOrder/SendOrder";
+import Contact from "./Pages/ContactUs/Contact";
+import EnsureReserviation from "./Pages/Reserviation/EnsureEmailReserviation/EnsureReserviation";
+import SelectReserviation from "./Pages/Reserviation/SelectReserviatin/SelectReserviation";
 
 
 
@@ -22,6 +25,9 @@ function App() {
         <Route path="/:meal" element={<MealProfile/>} />
         <Route path="/your-order" element={<Order/>} />
 <Route path="/complete-order" element={<SendOrder/>} />
+<Route path="/contactus" element={<Contact/>} />
+<Route path="/reservation/confirm-email" element={<EnsureReserviation/>} />
+<Route path="/reservation/selecttime" element={<SelectReserviation/>} />
 
 
         </Route>

@@ -52,6 +52,10 @@ margin: auto;
     padding: 8px 12px;
     background-color: rgb(147, 60, 29);
     color: white;
+    transition: .5s ease;
+}
+.btns button:hover {
+    opacity: 90%;
 }
 @media (max-width:1168px) {
     

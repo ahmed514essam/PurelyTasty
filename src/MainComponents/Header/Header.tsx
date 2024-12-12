@@ -14,6 +14,14 @@ const Header = () => {
       navicate("/")
     }
     
+
+const reservation = () => {
+  navicate("/reservation")
+}
+
+
+
+
     return (
         <>
 
@@ -63,7 +71,7 @@ const Header = () => {
 </div>
 
 {/* <div className={style.listdisplayBuuton}> */}
-    <button className={style.btnGetAppp}>
+    <button onClick={reservation} className={style.btnGetAppp}>
 
     Reservation
 
@@ -111,7 +119,7 @@ const Header = () => {
 
 
 <div className={style.rightSide}>
-    <button className={style.btnGetApp}>
+    <button onClick={reservation} className={style.btnGetApp}>
     Reservation
     </button>
 </div>
