@@ -4,7 +4,6 @@ import iconImage from "../../../public/favIcon.png"
 import { Link, useNavigate } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars  } from "@fortawesome/free-solid-svg-icons";
-import Darkmode from "../../Pages/Components/DarkMode/Darkmode";
 const Header = () => {
 
 
@@ -124,8 +123,7 @@ const reservation = () => {
 </div>
 
 
-{/* <Darkmode/>
-<Darkmode/> */}
+
 
 
 <div className={style.rightSide}>
