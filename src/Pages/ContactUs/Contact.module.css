@@ -46,12 +46,12 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 color:  rgb(173, 122, 26);
 
 }
-.det form {
+.det .form {
     width: 80%;
     margin: auto;
 
 }
-.det form input {
+.det .form input {
     height: 40px;
     margin-bottom: 20px;
     width: 100%;
@@ -59,30 +59,30 @@ color:  rgb(173, 122, 26);
     font-size: 1.2em;
     /* border-radius: 8px; */
 }
-.det form input:focus {
+.det .form input:focus {
 outline: none;
 
 
 }
 
 
-.det form input:active {
+.det .form input:active {
 outline: none;
 }
 
 
-.det form textarea {
+.det .form textarea {
     height: 60px;
     width: 100%;
     padding-left: 20px;
 }
-.det form textarea:active {
+.det .form textarea:active {
     outline: none;
 }
-.det form textarea:focus {
+.det .form textarea:focus {
     outline: none;
 }
-.det form button {
+.det .form button {
 
     width: 100%;
     padding: 10px;
@@ -100,7 +100,7 @@ outline: none;
     }
 }
 @media (max-width:830px) {
-    .det form {
+    .det .form {
         width: 95%;
     }
 }

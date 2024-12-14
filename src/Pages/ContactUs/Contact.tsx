@@ -5,36 +5,41 @@ import { useState } from "react";
 const Contact = () => {
 
 
+const [name , setName] = useState("");
 
-    const [result, setResult] = useState("");
+const [emi , setEmi] = useState("");
+const [address , setAddress] = useState("");
+const [sugest , setSuggest] = useState("");
 
 
-
-    const onSubmit = async (e) => {
-      e.preventDefault();
-      setResult("Sending....");
-      const formData = new FormData(e.target);
+const contactUs = "Contact US" ;
   
-      formData.append("access_key", "88b30d4b-08dd-4867-9c85-b279e94bfa82");
-  
-      const response = await fetch("https://api.web3forms.com/submit", {
+
+  const sendOrder = async () => {
+    // e.preventDefault();
+    
+    fetch("https://sendmail-api-docs.vercel.app/api/send", {
         method: "POST",
-        body: formData
-      });
-  
-      const data = await response.json();
-  
-      if (data.success) {
-        setResult("Form Submitted Successfully");
-        e.target.reset();
-      } else {
-        console.log("Error", data);
-        setResult(data.message);
-      }
-    };
-  
+        body: JSON.stringify({
+            to: "ahmedessaam124@gmail.com",
+            subject: `Message from ${contactUs} `,
+            message: `<p>name : ${name}</p>
+                      <p>city : ${address}</p>
+                      <p>Email : ${emi}</p>
+                      <p> Suggest : ${sugest}</p>`,
+                      
+        })
+    })
+    .then(res => res.json())
+    .then(data => console.log(data));
 
+    
+setName("");
+setEmi("");
+setSuggest("");
+setAddress("");
 
+};
 
 
 
@@ -52,30 +57,30 @@ const Contact = () => {
 
 <h2>Contact With Us Dear</h2>
 
-<form onSubmit={onSubmit}>
+<div className={style.form}>
 
 <div className={style.oneLabel}>
-<input id="name" name="name" placeholder="Your Name" type="text" />
+<input id="name" name="name " value={name} onChange={(e) => setName(e.target.value)} placeholder="Your Name" type="text" />
 </div>
 
 
 <div className={style.oneLabel}>
-<input name="email" placeholder="Email" type="email" />
+<input name="email" value={emi} onChange={(e) => setEmi(e.target.value)} placeholder="Email" type="email" />
 </div>
 
 
 <div className={style.oneLabel}>
-<input name="address" placeholder="Your Address" type="text" />
+<input name="address" value={address} onChange={(e) => setAddress(e.target.value)} placeholder="Your Address" type="text" />
 </div>
 
 
 <div className={style.oneLabel}>
-<textarea placeholder="Your Suggest" />
+<textarea value={sugest} onChange={(e) => setSuggest(e.target.value)} placeholder="Your Suggest" />
 </div>
 
-<button type="submit">Send</button>
+<button onClick={sendOrder} type="submit">Send</button>
 
-</form>
+</div>
 
 
 </div>

@@ -9,7 +9,7 @@ const EnsureReserviation = () => {
     const [email , setEmail] = useState("");
     const [erroralert , setErroralert] = useState<boolean>(false) ;
 
-    const validEmail = /^[\w\.-]+@[a-zA-Z\d\.-]+\.[a-zA-Z]{2,}$/;
+    const validEmail = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
 
 const navicate = useNavigate();
 const confirmEmail = () => {
