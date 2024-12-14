@@ -10,6 +10,7 @@ import SendOrder from "./Pages/Orders/SendDetailsOrder/SendOrder";
 import Contact from "./Pages/ContactUs/Contact";
 import EnsureReserviation from "./Pages/Reserviation/EnsureEmailReserviation/EnsureReserviation";
 import SelectReserviation from "./Pages/Reserviation/SelectReserviatin/SelectReserviation";
+import About from "./Pages/About/About";
 
 
 
@@ -28,6 +29,7 @@ function App() {
 <Route path="/contactus" element={<Contact/>} />
 <Route path="/reservation/confirm-email" element={<EnsureReserviation/>} />
 <Route path="/reservation/selecttime" element={<SelectReserviation/>} />
+<Route path="/about" element={<About/>} />
 
 
         </Route>

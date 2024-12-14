@@ -80,3 +80,278 @@ border-radius: 10px;
  padding: 6px 0;
 
 }
+@media (max-width:1060px) {
+    
+    .sectionProfile {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        width: 90%;
+        
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .imgProfile img {
+        object-fit: cover;
+        width: 80%;
+        height: 80%;
+        margin: auto;
+        border-radius: 10px;
+    }
+    .imgProfile {
+        width: 90%;
+        height: 50%;
+        margin-top: 150px;
+        margin-bottom: 5px;
+        
+    }
+    .detailsProfile {
+        width: 90%;
+        height: 100%;
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+    .detailsProfile h1 {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 600;
+    text-align: center;
+    }
+    .detailsProfile h2 {
+        font-weight: 600;
+        padding-left: 30px;
+    }
+    .detailsProfile h2 span {
+        color: rgb(118, 80, 10);
+    }
+    .detailsProfile .pDescription {
+        font-size: 1.6em;
+        font-weight: 500;
+        padding-left: 30px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .componMEal {
+        padding-left: 50x;
+        font-size: 1.6em;
+        font-weight: 600;
+    padding-left: 30px;
+    }
+    .componMEal span {
+        color: rgb(118, 80, 10);
+    }
+    .pricess {
+        text-align: center;
+        font-weight: 600;
+    padding-bottom: 20px;
+    }
+    .pricess span {
+        color: rgb(18, 161, 27);
+    }
+    .pricess del {
+        color: red;
+    }
+    .detailsProfile button {
+        width: 50%;
+        margin: auto;
+        margin-left: 50px;
+        text-align: center;
+    font-size: 1.5em;
+    font-weight: 600;
+    border-radius: 10px;
+     border: 0;
+     outline: 0;
+     color: white;
+     background-color: rgb(173, 122, 26);
+     padding: 6px 0;
+    
+    }
+
+
+
+
+}
+
+
+
+@media (max-width:454px) {
+    
+    .sectionProfile {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        width: 98%;
+        
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .imgProfile img {
+        object-fit: cover;
+        width: 80%;
+        height: 80%;
+        margin: auto;
+        border-radius: 10px;
+    }
+    .imgProfile {
+        width: 100%;
+        height: 50%;
+        margin-top: 150px;
+        margin-bottom: 5px;
+        
+    }
+    .detailsProfile {
+        width: 100%;
+        height: 100%;
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+    .detailsProfile h1 {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 600;
+    text-align: center;
+    }
+    .detailsProfile h2 {
+        font-weight: 600;
+        padding-left: 30px;
+    }
+    .detailsProfile h2 span {
+        color: rgb(118, 80, 10);
+    }
+    .detailsProfile .pDescription {
+        font-size: 1.6em;
+        font-weight: 500;
+        padding-left: 30px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .componMEal {
+        padding-left: 50x;
+        font-size: 1.6em;
+        font-weight: 600;
+    padding-left: 30px;
+    }
+    .componMEal span {
+        color: rgb(118, 80, 10);
+    }
+    .pricess {
+        text-align: center;
+        font-weight: 600;
+    padding-bottom: 20px;
+    }
+    .pricess span {
+        color: rgb(18, 161, 27);
+    }
+    .pricess del {
+        color: red;
+    }
+    .detailsProfile button {
+        width: 90%;
+        margin: auto;
+        margin-left: 5px;
+        text-align: center;
+    font-size: 1.5em;
+    font-weight: 600;
+    border-radius: 10px;
+     border: 0;
+     outline: 0;
+     color: white;
+     background-color: rgb(173, 122, 26);
+     padding: 6px 0;
+    
+    }
+
+
+
+
+}
+
+
+
+
+
+@media (max-width:382px) {
+    
+    .sectionProfile {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        width: 90%;
+        
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .imgProfile img {
+        object-fit: cover;
+        width: 80%;
+        height: 80%;
+        margin: auto;
+        border-radius: 10px;
+    }
+    .imgProfile {
+        width: 90%;
+        height: 50%;
+        margin-top: 150px;
+        margin-bottom: 5px;
+        
+    }
+    .detailsProfile {
+        width: 90%;
+        height: 100%;
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+    .detailsProfile h1 {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 600;
+    text-align: center;
+    }
+    .detailsProfile h2 {
+        font-weight: 600;
+        padding-left: 30px;
+    }
+    .detailsProfile h2 span {
+        color: rgb(118, 80, 10);
+    }
+    .detailsProfile .pDescription {
+        font-size: 1.3em;
+        font-weight: 500;
+        padding-left: 30px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .componMEal {
+        padding-left: 50x;
+        font-size: 1.3em;
+        font-weight: 600;
+    padding-left: 5px;
+    }
+    .componMEal span {
+        color: rgb(118, 80, 10);
+    }
+    .pricess {
+        text-align: center;
+        font-weight: 600;
+    padding-bottom: 20px;
+    }
+    .pricess span {
+        color: rgb(18, 161, 27);
+    }
+    .pricess del {
+        color: red;
+    }
+    .detailsProfile button {
+        width: 90%;
+        margin: auto;
+        margin-left: 10px;
+        text-align: center;
+    font-size: 1.2em;
+    font-weight: 600;
+    border-radius: 10px;
+     border: 0;
+     outline: 0;
+     color: white;
+     background-color: rgb(173, 122, 26);
+     padding: 6px 0;
+    
+    }
+
+
+
+
+}

@@ -45,10 +45,12 @@ text-align: center;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: var(--body-bg);
 }
 .secondSection h2 {
     font-weight: 600;
     font-size: 2.5em;
+    background-color: var(--body-color);
 }
 .secondSection button {
     padding: 10px 10px;

@@ -9,6 +9,7 @@ import Germany from "../../../public/images/germani.jpg" ;
 import Italy from "../../../public/images/italy.jpg" ;
 import Spain from "../../../public/images/spain.jpg" ;
 import France from "../../../public/images/france.jpg" ;
+import { useNavigate } from "react-router";
 
 
 const Home: React.FC = () => {
@@ -30,6 +31,12 @@ const Home: React.FC = () => {
 
   const filteredData = data.filter((item) => item.city === "England");
 
+const navicate = useNavigate();
+const goResev = () => {
+  navicate("/reservation/confirm-email")
+}
+
+
   return (
     <>
       {/* Hero Section */}
@@ -41,7 +48,7 @@ const Home: React.FC = () => {
 
       <section className={style.secondSection}>
         <h2>An Unforgettable Culinary Journey</h2>
-        <button>Reserve Now</button>
+        <button onClick={goResev}>Reserve Now</button>
       </section>
 
       <section className={style.secondSectionh}>

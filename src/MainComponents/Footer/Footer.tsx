@@ -23,14 +23,14 @@ const goHome = () => {
 <div className={style.contentLinks}>
 
     <span className={style.oneRowLinksFooter}>
-<Link className={style.decorationnone} to={""}>Library</Link>
-<Link className={style.decorationnone} to={"/account"}>About US</Link>
+<Link className={style.decorationnone} to={"/menu-foods"}>Foods</Link>
+<Link className={style.decorationnone} to={"/about"}>About US</Link>
 <Link className={style.decorationnone} to={"/contactus"}>Contact Us</Link>
 </span>
 
 <span className={style.twoRowLinksFooter}>
-<Link className={style.decorationnone} to={""}>Services</Link>
-<Link className={style.decorationnone} to={"/account"}>Account</Link>
+<Link className={style.decorationnone} to={"/your-order"}>Orders</Link>
+<Link className={style.decorationnone} to={"/reservation/confirm-email"}>Reservation</Link>
 </span>
 
 
@@ -50,7 +50,6 @@ const goHome = () => {
 </p>
 
 <span className={style.imgGooglePlay}>
-    <img src={""} />
     </span>
 
 </div>
